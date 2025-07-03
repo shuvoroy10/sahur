@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+}
+img{
+    height: 250px;
+}
+h3{
+    text-align: center;
+}
+#sahur{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+audio{
+    
+}
+*{
+    /* margin: 0px; */
+}
+.crocodilo{
+}
+.main{
+    border: 2px solid violet;
+}
+.check{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
