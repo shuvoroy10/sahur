@@ -2,15 +2,19 @@ h1{
     text-align: center;
 }
 img{
-    height: 250px;
+    max-width: 100%;
+  height: auto;
+  display: block;
 }
 h3{
     text-align: center;
+
 }
 #sahur{
-    display: flex;
-    justify-content: center;
-    align-items: center; 
+     display: flex; 
+     justify-content: center;
+     align-items: center;   
+     /* flex-wrap: wrap; */
 }
 audio{
     
@@ -22,9 +26,14 @@ audio{
 }
 .main{
     border: 2px solid violet;
+     /* display: flex; 
+     justify-content: center;
+     align-items: center;    */
+     /* flex-wrap: wrap;  */
+    /* display: inline-block; */
 }
 .check{
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;  */
 }
