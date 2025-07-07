@@ -1,0 +1,46 @@
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.185);
+}
+
+.box{
+    height: 340px;
+    width: 260px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    margin: 10px;
+    box-shadow: 5px 5px 15px;
+    box-shadow: -5px -5px 15px;
+}
+
+.box:hover{
+    background-color: black;
+    box-shadow: none ;
+    
+}
+
+.container .box h3{
+    margin: 0px;
+    margin-top: 7px;
+    color: rgb(0, 0, 0);
+}
+
+.container .box img{
+    height: 240px;
+}
+
+.container .box #Crocodilo {
+    margin: 0px 0px 29px 0px;
+    height: 190px;
+}
+
+.container .box #Bombini{
+    height: 200px;
+    margin: 0px 0px 10px 0px;
+}
